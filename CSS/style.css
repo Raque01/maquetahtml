@@ -36,7 +36,7 @@ h1{
 	margin: 0 auto;
 }
 
-/* HERO */
+/* HEADER */
 
 header .submenu{
 	background-color: #21242e;
@@ -117,6 +117,60 @@ img{
 }
 
 
+/* FIN DE HEADER*/
 
+/*HERO*/
 
-/* FIN HERO*/
+.hero{
+	background-image: url(../images/fondo.jpg);
+	background-color: #444;
+	height: 550px;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center center;
+	background-blend-mode: soft-light;
+}
+
+.hero>div{
+	padding: 12% 15%;
+	color: white;
+}
+
+.hero>div h2{
+	font-size: 2em;
+	font-family: 'Handlee', cursive;
+}
+
+.hero>div h3{
+	margin:  20px 0;
+	font-size: 1.25em;
+	color: #fa573a;
+}
+
+.hero>div div a{
+	background-color: #fa573a;
+	color: white;
+	text-decoration: none;
+	padding: 15px;
+	display: inline-block;
+	margin: 20px 0;
+	border:  2px solid #fa573a;
+}
+
+.hero>div div a:hover{
+	background-color: transparent;
+	color: #fa573a;
+	border:  2px solid #fa573a;
+}
+
+.hero .social li{
+	display: inline-block;
+	margin-right: 30px;
+	font-size: 24px;
+}
+
+.hero .social li a{
+	color: white;
+}
+
+/*FIN DE HERO*/

@@ -16,6 +16,13 @@ body{
 	font-size: 16px;
 }
 
+.row:after{
+	content: "";
+	height: 0px;
+	display: block;
+	clear: both;
+}
+
 h1{
 	font-size: 200%
 }
@@ -57,16 +64,59 @@ header .submenu .container div:last-child{
 	text-align: right; 
 }
 
-header .submenu .container div: nth-last-child3{
+header .submenu .container div:nth-child(3){
 	text-align: right; 
 }
 
-.row:after{
-	content: "";
-	height: 0px;
-	display: block;
-	clear: both;
+header .submenu i{
+	color: #fa573a;
+	margin-right: 5px;
 }
+/*
+color:white;
+padding:10px;
+*/
+
+header nav{
+	background-color: white;
+	padding: 20px 0px;
+}
+
+header nav .logo{
+	width: 100px;
+	height: auto;
+	float: left;
+} 
+
+header nav .menu{
+	float: right;
+	padding-top: 5px;
+}
+
+header nav .menu li{
+	display: inline-block;
+	margin-left: 15px;
+}
+
+header nav a{
+	text-decoration: none;
+	color: #666;
+}
+
+header nav a:hover{
+	color: #fa573a;
+}
+
+header nav .activo{
+	color:  #fa573a;
+}
+
+img{
+	width: 100px;
+	height: auto;
+}
+
+
 
 
 /* FIN HERO*/

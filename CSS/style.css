@@ -2,3 +2,11 @@
 *{
 	box-sizing: border-box;
 }
+
+.container-fluid{
+	width: 100%
+}
+
+.container{
+	max-width: 1100px;
+}

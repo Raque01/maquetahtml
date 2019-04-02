@@ -116,6 +116,10 @@ header nav .activo{
 	color:  #fa573a;
 }
 
+.hamburguesa{
+	display: none
+}
+
 img{
 	width: 100%;
 	height: auto;
@@ -283,6 +287,7 @@ main section .columna{
 main #aboutus .imagen{
 	width: 85%;
 	height: auto;
+	margin:  0 auto;
 }
 
 main #aboutus .imagen .marco{
@@ -309,6 +314,89 @@ main #aboutus .imagen:hover img{
 
 /* en marco  transform: scale(1.5);
 en imagen overflow: hidden */ 
+
+@media (max-width: 1100px){
+	header .submenu{
+		padding-right: 20px;
+	}
+
+	header nav{
+		padding-right: 20px;
+		padding-left: 20px;
+	}
+}
+
+@media (max-width: 768px) {
+	header .submenu{
+		text-align: center !important;
+		font-size: 70%;
+	}	
+}
+ 
+ @media (max-width: 600px) {
+  	header .submenu .itexto{
+ 		display: none;
+ 	}
+
+ 	header .submenu div{
+ 		font-size: 120%;
+ 	}
+
+ 	.hamburguesa{
+		display: block;
+		float: right;
+	}
+
+	.hamburguesa .linea{
+		border-top: 2px solid #666;
+		width: 30px;
+		margin-bottom: 10px;
+		cursor: pointer;
+	}
+
+	header nav .menu{
+		float: none;
+		padding-top: 60px;
+	}
+
+	header nav .menu li{
+		display: block;
+		margin-left: 0px;
+		padding:  20px;
+		text-align: center;
+		border-bottom: 1px solid #ddd;
+	}
+
+	header nav .menu li:last-child{
+		border-bottom: 0px;
+	}
+
+	main #ourservices article{
+		width: 50%;
+		padding-top: 20px;
+		padding-bottom: 20px;
+	}
+	main #ourservices article:last-child{
+		width: 100%;
+	}
+	
+ }
+
+@media (max-width: 426px){
+
+	main #ourservices article{
+		width:  100%;
+		border-left: 0px;
+		border-bottom: 1px solid #ccc;
+	}
+
+	main section .columna{
+		width: 100%;
+		padding: 20px;
+	}
+}
+
+
 
 
 
